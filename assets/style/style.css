@@ -1,0 +1,169 @@
+body {
+    background-image: url("background.jpeg");
+-webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-attachment: fixed;
+}
+
+#name {
+    font-family: 'Rancho', cursive;
+}
+
+.box {
+    width: 100%;
+    text-align: center;
+
+ margin:10px;
+
+
+}
+#recentfloat{
+    position: relative;
+    right: 0px;
+}
+.newJobDiv{
+    Background: white;
+    Width: 550px;
+    color: black;
+    float: left;
+    margin:10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.jobDescriptionDiv{
+    Width: 525px;
+    height: 150px;
+    overflow-y: scroll;
+    color:black;
+    
+}
+#testingCSS{
+    float:right;
+}
+#projectTitle {
+    font-family: 'Rancho', cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin:0px;
+    color: white;
+
+}
+
+#weather{
+    background:white;
+    width: 475px;
+    padding:7px;
+    border-radius: 15px;
+    margin:auto;
+}
+#weatherDiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'News Cycle', sans-serif;
+    font-size-adjust: inherit;
+    float:left;
+}
+
+.newJobDiv{
+    text-align: center;
+    flex-direction: row;
+    font-family: 'News Cycle', sans-serif;
+
+}
+#jobDiv{
+    margin:auto;
+    text-align: center;
+}
+#recentCard{
+    font-family: 'News Cycle', sans-serif;
+}
+
+/* Pure elements */
+#navbar{
+    background:white;
+    padding: 5px;
+}
+.pure-table {
+    margin:auto;
+}
+
+.pure-menu-custom a {
+    color: rgb(59, 59, 59);
+    font-family: 'Nixie One', cursive;
+    font-weight: 200px;
+    
+}
+
+.pure-menu-custom a:hover {
+    color:#777;
+    background:white;
+}
+tbody {
+    background-color:#777;
+}
+
+.pure-menu-list{
+    float:right;
+}
+
+.inputDiv{
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #projectTitle{
+    font-family: 'Rancho', cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+    margin:0px;
+    color: white;
+    }
+    .newJobDiv{
+
+    Width: 400px;
+ 
+    }
+    .jobDescriptionDiv{
+    Width: 375px;
+    }
+    #weather{
+        width: 400px;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    #projectTitle{
+        font-family: 'Rancho', cursive;
+        width: 100%;
+        text-align: center;
+        font-size: 75px;
+        padding-top: 50px;
+        margin:0px;
+        color: white;
+    }
+    .newJobDiv{
+
+        Width: 350px;
+
+    }
+    .jobDescriptionDiv{
+        Width: 325px;
+
+    }
+    #weather{
+        width: 325px;
+        margin:auto;
+    }
+}
